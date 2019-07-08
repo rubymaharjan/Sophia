@@ -1,0 +1,396 @@
+
+.main-container{
+}
+.top-nav-bar{
+
+    background-color: #e98596;
+}
+
+.top-nav-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul{
+
+  list-style-type: none;   
+}
+.top-nav-bar li {
+  float: right;
+  display: inline;
+}
+
+.top-nav-bar li a {
+  display: block;
+  color: rgb(85, 17, 17);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-nav-bar li a:hover:not(.active) {
+  background-color: rgb(228, 87, 87);
+}
+
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+      text-decoration: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+      padding: 14px 12px;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+
+}
+.nav-head{
+    font-style: italic;
+    text-align: center;
+
+}
+.nav-icon li{
+          padding: 14px 18px;
+
+}
+.nav-btn{
+    background-color: black;
+    color: #fff;
+    border: 0;
+    height: 30px;
+}
+.img-slider{
+    width: 100%;
+    overflow: hidden;
+}
+.img-slider img{
+        width: 100%;
+
+}
+.overlap-content{
+    z-index: 1;
+    position: relative;
+    top: -500px;
+}
+.sale-box{
+    border: 2px solid #fff;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.inner-box{
+    border: 2px solid rgb(223, 217, 217);
+    height: 190px;
+    width: 190px;
+    margin: auto; 
+    margin-top: 2px;
+}
+#sale-font{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Lucida Sans Unicode;
+    margin-top: -16px;
+}
+h5,h4{
+    color: #fff;
+    font-display: lucida;
+    
+}
+.upto-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left-hr{
+    width: 60px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+.upto-text{
+    width: 60px;
+    margin-top: -35px;
+}
+.right-hr{
+    float: right;
+    width: 60px;
+    margin-top: -20px;
+}
+.bottom-text{
+    margin-top: -30px;
+}
+.shop-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.shop-btn button{
+    
+    background-color: rgb(248, 151, 71);
+    color: #fff;
+    height: 35px;
+    border: 0;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+    margin-left: 45px;
+    position: absolute;
+    width: 1250px;
+
+}
+.banner img{
+    width: 100%;
+}
+.topic-1{
+    display: flex;
+    flex-direction: row; 
+    margin-top: -90px;
+    margin-bottom: -40px;
+    text-align: center; 
+    justify-content: space-around; 
+    padding
+    : 52px;
+}
+
+.topic-1 hr{
+    width: 500px;
+}
+.topic-text{
+    margin-top: -25px;
+    text-align: center;
+    font-style: italic;
+}
+.featured-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    overflow: hidden;
+    margin: 32px;
+}
+.feat{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.feat:hover{
+    opacity: 0.8;
+}
+.feat-m:hover{
+    opacity: 0.8;
+}
+.feat img{
+    width: 100%;
+}
+.feat-s2{
+    margin-top: 20px;
+}
+.feat-m{
+    width: 400px;
+    overflow: hidden;
+}
+.feat-m img{
+    width: 100%;
+}
+.topic-2{
+    margin-top: -30px;
+    margin-bottom: -80px;
+}
+.topic-3{
+    margin-top: -41px;
+}
+.img-button{
+    z-index: 1;
+    position: relative;
+    top:-100px;
+    left: 120px;
+    border: 0;
+    background-color: orange;
+    color: #fff;
+    height: 30px;
+    font-size: 16px;
+}
+.summer-content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.summer-items{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
+.trapezoid {
+	border-bottom: 40px solid rgb(22, 22, 21);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+    width: 125px;
+    z-index: 1;
+    position: relative;
+    top: -44px;
+    margin: 0 auto;
+}
+.onhover{
+    border-bottom: 40px solid rgb(219, 176, 36);
+}
+.trape-text{
+top: -70px;
+text-align: center;
+z-index: 1;
+position: relative;
+margin: 0 auto;
+color: #fff;
+font-size: 12px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(151, 19, 19);
+  border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: -44px;
+  display: inline-block;
+}
+
+.summer-items img{
+    width: 100%;
+}
+.summer-content2{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.summer-collection{
+    border: 1px solid rgb(216, 210, 210);
+    padding: 12px;
+    margin: 70px;
+}
+
+.round{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: orange;
+    z-index: 1;
+    border: l solid orange;
+}
+
+.brand-content{
+    height: 150px;
+    background-color: rgb(235, 229, 229);
+    margin: 55px;
+}
+.brand-items{
+    position: relative;
+    top:18px;
+}
+.brand-items li{
+    padding: 28px;
+}
+.customer-content{
+    height: 360px;
+}
+.customer-says{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: relative;
+    top: -340px;
+
+    justify-content: space-between;
+    
+}
+.customer-img{
+    height: 320px;
+    width: 220px;
+    overflow: hidden;
+    margin: 22px;
+}
+.customer-img img{
+    width: 100%;
+}
+.right-img{
+    float: right;
+}
+.customer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+}
+.c-text{
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.c-text p{
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+.c-text b{
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+.c-text h2{
+    color: #fff;
+    font-style: italic;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
+.footer-content li{
+    display: block;
+}
+.sc-list li{
+    display: inline;
+    padding:  14px;
+}
+.search-panel{
+    width: 220px;
+    height: 30px;
+    border: 2px solid gray;
+    
+}
+.search-panel p{
+    font-size: 12px;
+    text-align: center;
+    padding-top: -10px;
+}
+.search-panel button{
+    border: 0;
+    background-color: rgb(46, 45, 45);
+    height: 26px;
+    text-align: center;
+    margin-top: -10px;
+}
+.border-bottom{
+    border-bottom: 1px solid gray;
+    margin: 52px;
+    padding-top: 40px;
+}
